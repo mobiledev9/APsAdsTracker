@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		104213BB798E65E8EE01766B02E2A0C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2BBD3D54286D614900A51174 /* ATLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD3D53286D614900A51174 /* ATLogin.swift */; };
+		2BBD3D76286D87AD00A51174 /* ATConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD3D75286D87AD00A51174 /* ATConstant.swift */; };
 		33E2072F5A641E4E029ACE45A9EA9CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4D603E0ECAE7ECFE16A9AF76DA7A02D6 /* Pods-APsAdsTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0B3EBE3DA5ACD565CFEAC17FE90AF /* Pods-APsAdsTracker_Example-dummy.m */; };
 		89D5A9BD39AFAD9646B0D30EB445C1D9 /* APsAdsTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8E3CFA88B2014CA7345530C1BDE1AE /* APsAdsTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +43,7 @@
 		1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APsAdsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B07D58857AE21AC4E9B2A7E62BA65F2 /* Pods-APsAdsTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APsAdsTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2BBD3D53286D614900A51174 /* ATLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLogin.swift; sourceTree = "<group>"; };
+		2BBD3D75286D87AD00A51174 /* ATConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATConstant.swift; sourceTree = "<group>"; };
 		3DD6725BE111A4269049D476928DBFC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4EB04A99D7F8D214DBA2A16BB87B5C24 /* Pods-APsAdsTracker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APsAdsTracker_Example-Info.plist"; sourceTree = "<group>"; };
 		50B565F618658A8FD14F989346625AD0 /* Pods-APsAdsTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APsAdsTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				2BBD3D53286D614900A51174 /* ATLogin.swift */,
+				2BBD3D75286D87AD00A51174 /* ATConstant.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBD3D76286D87AD00A51174 /* ATConstant.swift in Sources */,
 				2BBD3D54286D614900A51174 /* ATLogin.swift in Sources */,
 				E65CCFCFCBC5FDC196BA2B48207E1332 /* APsAdsTracker-dummy.m in Sources */,
 			);

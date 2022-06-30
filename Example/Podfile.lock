@@ -1,5 +1,5 @@
 PODS:
-  - APsAdsTracker (0.1.0)
+  - APsAdsTracker (0.0.1)
 
 DEPENDENCIES:
   - APsAdsTracker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APsAdsTracker: 97e8863edb4aa7d1e94c293b0ac98b4fedff459f
+  APsAdsTracker: 3acbad76c52abf70e94a81f739c7cd5e529a2cf6
 
 PODFILE CHECKSUM: a5597b91d9e106b7a72b7d847ec8ebcf015661c9
 

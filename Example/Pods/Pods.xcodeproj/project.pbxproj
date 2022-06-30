@@ -8,78 +8,78 @@
 
 /* Begin PBXBuildFile section */
 		104213BB798E65E8EE01766B02E2A0C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2BBD3D54286D614900A51174 /* ATLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD3D53286D614900A51174 /* ATLogin.swift */; };
-		2BBD3D76286D87AD00A51174 /* ATConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD3D75286D87AD00A51174 /* ATConstant.swift */; };
-		33E2072F5A641E4E029ACE45A9EA9CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		148317B9BBB9137B16D2B2D70F7C1240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		16EAD5597810A93FE76E17A4A3A7DEAE /* APsAdsTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29ABAB205E0BD75E18910314E3135C70 /* APsAdsTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D603E0ECAE7ECFE16A9AF76DA7A02D6 /* Pods-APsAdsTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0B3EBE3DA5ACD565CFEAC17FE90AF /* Pods-APsAdsTracker_Example-dummy.m */; };
-		89D5A9BD39AFAD9646B0D30EB445C1D9 /* APsAdsTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8E3CFA88B2014CA7345530C1BDE1AE /* APsAdsTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558F510A880AC87FC4AAAEDE6204F3E2 /* APsAdsTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119C10A3D6E638246B20F1ECB6B710D4 /* APsAdsTracker-dummy.m */; };
+		76701E0ABBBCE252286652B3EA15B80A /* ATLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187377435BD612E739ACE9B750444C27 /* ATLogin.swift */; };
 		95E3CCD7F2AB4FE2D162397D51F1252A /* Pods-APsAdsTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B07D58857AE21AC4E9B2A7E62BA65F2 /* Pods-APsAdsTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A378DBF313D2DC2DA68B9E4B0EE7ED21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E65CCFCFCBC5FDC196BA2B48207E1332 /* APsAdsTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 825ED7236E329151DFBDDAA91BA10582 /* APsAdsTracker-dummy.m */; };
+		DAF4567D763853984CAB0F6DA61F1CAA /* ATConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793DFBD753E4C6218A0FCC70B99196E /* ATConstant.swift */; };
 		F9BA1C44B0FF076DF1440FE2D9D89BE4 /* Pods-APsAdsTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F8FAF7D15CF1854D9482B939E7D40 /* Pods-APsAdsTracker_Tests-dummy.m */; };
 		FCDDD34A1B2A48DCC3E1BB53CCEF9DCD /* Pods-APsAdsTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 540E11B155D537BFD6E9B7459A8618BB /* Pods-APsAdsTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		72CF1965043017C7360C319B5FB51469 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A4123776D4EBEB89C31B63EFED8A55C;
-			remoteInfo = "Pods-APsAdsTracker_Example";
-		};
-		F367C5CA59C57FF780BD644DD1B1EE99 /* PBXContainerItemProxy */ = {
+		AF275D751AF19F3DD4F60657C1CCDE10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 26B1B50F7165546A614EB9E27D0DBFC0;
 			remoteInfo = APsAdsTracker;
 		};
+		FCB0E8A3BB6703A7E62107E2063D9DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4123776D4EBEB89C31B63EFED8A55C;
+			remoteInfo = "Pods-APsAdsTracker_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0331A34AA66679686D4CFD33B72E0E7D /* Pods-APsAdsTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APsAdsTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		041372A45B6A2C50171888C029AB3818 /* APsAdsTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APsAdsTracker.debug.xcconfig; sourceTree = "<group>"; };
-		1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APsAdsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119C10A3D6E638246B20F1ECB6B710D4 /* APsAdsTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APsAdsTracker-dummy.m"; sourceTree = "<group>"; };
+		187377435BD612E739ACE9B750444C27 /* ATLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATLogin.swift; path = ClassNEW/ATLogin.swift; sourceTree = "<group>"; };
+		1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APsAdsTracker; path = APsAdsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E10D775C5A73D05E56A7C0BAE726BB /* APsAdsTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APsAdsTracker.modulemap; sourceTree = "<group>"; };
+		29ABAB205E0BD75E18910314E3135C70 /* APsAdsTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APsAdsTracker-umbrella.h"; sourceTree = "<group>"; };
 		2B07D58857AE21AC4E9B2A7E62BA65F2 /* Pods-APsAdsTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APsAdsTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2BBD3D53286D614900A51174 /* ATLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLogin.swift; sourceTree = "<group>"; };
-		2BBD3D75286D87AD00A51174 /* ATConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATConstant.swift; sourceTree = "<group>"; };
-		3DD6725BE111A4269049D476928DBFC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4EB04A99D7F8D214DBA2A16BB87B5C24 /* Pods-APsAdsTracker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APsAdsTracker_Example-Info.plist"; sourceTree = "<group>"; };
 		50B565F618658A8FD14F989346625AD0 /* Pods-APsAdsTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APsAdsTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		540E11B155D537BFD6E9B7459A8618BB /* Pods-APsAdsTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APsAdsTracker_Example-umbrella.h"; sourceTree = "<group>"; };
-		606A3E9D0E5F5CCF9D49C5AFA1281C04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5793DFBD753E4C6218A0FCC70B99196E /* ATConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATConstant.swift; path = ClassNEW/ATConstant.swift; sourceTree = "<group>"; };
 		61CDABDA9BCA36F20A2A69361448C546 /* Pods-APsAdsTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APsAdsTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6C4CDEED30D6806D5398091EB9C4B77F /* APsAdsTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APsAdsTracker-prefix.pch"; sourceTree = "<group>"; };
+		6299C4BE7B98F0B88E80878427EF9E1D /* APsAdsTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APsAdsTracker-Info.plist"; sourceTree = "<group>"; };
+		66C944594BDA8CFFDF6548E72A46F5FE /* APsAdsTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APsAdsTracker.release.xcconfig; sourceTree = "<group>"; };
+		7146A762729436A7AEFC8585361F03FF /* APsAdsTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APsAdsTracker.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75785FB8C09DC5547A2DB310565B8614 /* APsAdsTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = APsAdsTracker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7B693EF2D19C5222CF9C783EB3EA242D /* Pods-APsAdsTracker_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-APsAdsTracker_Example"; path = Pods_APsAdsTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C91B6CC52B15026FC06535C33FE30B9 /* Pods-APsAdsTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APsAdsTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		825ED7236E329151DFBDDAA91BA10582 /* APsAdsTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APsAdsTracker-dummy.m"; sourceTree = "<group>"; };
 		871F8FAF7D15CF1854D9482B939E7D40 /* Pods-APsAdsTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APsAdsTracker_Tests-dummy.m"; sourceTree = "<group>"; };
 		9631B65000FEE0542AF895C9B6B1D2AD /* Pods-APsAdsTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APsAdsTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99BF2CC9CFF77B82CDEA16886A34B7DF /* Pods-APsAdsTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APsAdsTracker_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2C0B3EBE3DA5ACD565CFEAC17FE90AF /* Pods-APsAdsTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APsAdsTracker_Example-dummy.m"; sourceTree = "<group>"; };
 		A52E9E7215F09F53816427F9F4912CF1 /* Pods-APsAdsTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APsAdsTracker_Tests.modulemap"; sourceTree = "<group>"; };
-		B48FA987DB0A1308021D0DAE2A313D77 /* APsAdsTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APsAdsTracker-Info.plist"; sourceTree = "<group>"; };
 		C007A8E371D272CA20C3D4AB929BE6B4 /* Pods-APsAdsTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APsAdsTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0137F993E33DE9A005051CB1ABFEC16 /* Pods-APsAdsTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APsAdsTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C02B2343EB6E3D1439EFE29823127CDE /* Pods-APsAdsTracker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APsAdsTracker_Tests-Info.plist"; sourceTree = "<group>"; };
+		D777838BD46999763D14CCA557B1F044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA8E24E5D0CC70DC0D33C531AEBD3885 /* APsAdsTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = APsAdsTracker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E69943401FA41BC15284FDEF967FE1EF /* APsAdsTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APsAdsTracker-prefix.pch"; sourceTree = "<group>"; };
 		E6CA8DBC5F394B2A8AD346E9539B0D27 /* Pods-APsAdsTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APsAdsTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7D11B050018E57A331A48E2B4E58EA3 /* APsAdsTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APsAdsTracker.release.xcconfig; sourceTree = "<group>"; };
 		ED62286CE3EC3D33B1A73CD60ECC6919 /* Pods-APsAdsTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APsAdsTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1FB1C57830047B249FDAF274F810186 /* APsAdsTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APsAdsTracker.modulemap; sourceTree = "<group>"; };
 		F4A0FF70D68CEA120116521E768D68A9 /* Pods-APsAdsTracker_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-APsAdsTracker_Tests"; path = Pods_APsAdsTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8E3CFA88B2014CA7345530C1BDE1AE /* APsAdsTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APsAdsTracker-umbrella.h"; sourceTree = "<group>"; };
+		F72AA543C49371E29E832B83BE2BE899 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C243E11FCFF1D05FEEF6C9DA5A26C3A0 /* Frameworks */ = {
+		7DEB8999B96113421DD841B16B328F80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33E2072F5A641E4E029ACE45A9EA9CEF /* Foundation.framework in Frameworks */,
+				148317B9BBB9137B16D2B2D70F7C1240 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,15 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DA2263CE18628F0EB57D626A5C7AF55 /* APsAdsTracker */ = {
+		0867CA1A730F15E9B93614CCD54D4BF3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2BBD3D52286D60B500A51174 /* Classes */,
-				59574B59BBDF91A97EF3CAED0E66E87D /* Pod */,
-				883ADC5502831AFBFDA7F8A1A955790F /* Support Files */,
+				DA8E24E5D0CC70DC0D33C531AEBD3885 /* APsAdsTracker.podspec */,
+				D777838BD46999763D14CCA557B1F044 /* LICENSE */,
+				F72AA543C49371E29E832B83BE2BE899 /* README.md */,
 			);
-			name = APsAdsTracker;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		257DF1B3A00067C1D39A970AF2429D72 /* Pods-APsAdsTracker_Tests */ = {
@@ -129,23 +128,6 @@
 			path = "Target Support Files/Pods-APsAdsTracker_Tests";
 			sourceTree = "<group>";
 		};
-		298E79A85CA9F31F1A4C6093CCC6BAE7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0DA2263CE18628F0EB57D626A5C7AF55 /* APsAdsTracker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2BBD3D52286D60B500A51174 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2BBD3D53286D614900A51174 /* ATLogin.swift */,
-				2BBD3D75286D87AD00A51174 /* ATConstant.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,29 +136,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		59574B59BBDF91A97EF3CAED0E66E87D /* Pod */ = {
+		65E8E868EBFDAAB9D2EB0898C192B68D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				75785FB8C09DC5547A2DB310565B8614 /* APsAdsTracker.podspec */,
-				606A3E9D0E5F5CCF9D49C5AFA1281C04 /* LICENSE */,
-				3DD6725BE111A4269049D476928DBFC0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		883ADC5502831AFBFDA7F8A1A955790F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1FB1C57830047B249FDAF274F810186 /* APsAdsTracker.modulemap */,
-				825ED7236E329151DFBDDAA91BA10582 /* APsAdsTracker-dummy.m */,
-				B48FA987DB0A1308021D0DAE2A313D77 /* APsAdsTracker-Info.plist */,
-				6C4CDEED30D6806D5398091EB9C4B77F /* APsAdsTracker-prefix.pch */,
-				FE8E3CFA88B2014CA7345530C1BDE1AE /* APsAdsTracker-umbrella.h */,
-				041372A45B6A2C50171888C029AB3818 /* APsAdsTracker.debug.xcconfig */,
-				E7D11B050018E57A331A48E2B4E58EA3 /* APsAdsTracker.release.xcconfig */,
+				24E10D775C5A73D05E56A7C0BAE726BB /* APsAdsTracker.modulemap */,
+				119C10A3D6E638246B20F1ECB6B710D4 /* APsAdsTracker-dummy.m */,
+				6299C4BE7B98F0B88E80878427EF9E1D /* APsAdsTracker-Info.plist */,
+				E69943401FA41BC15284FDEF967FE1EF /* APsAdsTracker-prefix.pch */,
+				29ABAB205E0BD75E18910314E3135C70 /* APsAdsTracker-umbrella.h */,
+				7146A762729436A7AEFC8585361F03FF /* APsAdsTracker.debug.xcconfig */,
+				66C944594BDA8CFFDF6548E72A46F5FE /* APsAdsTracker.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/APsAdsTracker";
+			sourceTree = "<group>";
+		};
+		A893C0B05D140CB5267AE70467C14453 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDC8BA05D784580AF7F14CB83AAAFA7E /* APsAdsTracker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B0D25BA9EDBF66992B117B737A02CD95 /* Targets Support Files */ = {
@@ -208,18 +188,30 @@
 		C359EA37AC2F2E45B6FD21716F5F4E5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker.framework */,
+				1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker */,
 				7B693EF2D19C5222CF9C783EB3EA242D /* Pods-APsAdsTracker_Example */,
 				F4A0FF70D68CEA120116521E768D68A9 /* Pods-APsAdsTracker_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CDC8BA05D784580AF7F14CB83AAAFA7E /* APsAdsTracker */ = {
+			isa = PBXGroup;
+			children = (
+				5793DFBD753E4C6218A0FCC70B99196E /* ATConstant.swift */,
+				187377435BD612E739ACE9B750444C27 /* ATLogin.swift */,
+				0867CA1A730F15E9B93614CCD54D4BF3 /* Pod */,
+				65E8E868EBFDAAB9D2EB0898C192B68D /* Support Files */,
+			);
+			name = APsAdsTracker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				298E79A85CA9F31F1A4C6093CCC6BAE7 /* Development Pods */,
+				A893C0B05D140CB5267AE70467C14453 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C359EA37AC2F2E45B6FD21716F5F4E5A /* Products */,
 				B0D25BA9EDBF66992B117B737A02CD95 /* Targets Support Files */,
@@ -237,19 +229,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		035650E7C1A9E98088999D9D0C597A45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EAD5597810A93FE76E17A4A3A7DEAE /* APsAdsTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		349ECC06367A79C97030275B42EF4646 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				95E3CCD7F2AB4FE2D162397D51F1252A /* Pods-APsAdsTracker_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A244D0E0F39732AECB5FD30C9D7D3C44 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89D5A9BD39AFAD9646B0D30EB445C1D9 /* APsAdsTracker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				86BBB47837AC8EEA1BADFCEBDBA93857 /* PBXTargetDependency */,
+				DDB5E63C8D79BFE7A7CD9B59BA9397B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-APsAdsTracker_Example";
 			productName = Pods_APsAdsTracker_Example;
@@ -285,12 +277,12 @@
 		};
 		26B1B50F7165546A614EB9E27D0DBFC0 /* APsAdsTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B69EC5E7C469CCB3F3BB5D89830C7E71 /* Build configuration list for PBXNativeTarget "APsAdsTracker" */;
+			buildConfigurationList = D5051B3431E9F91B511AD1C8F8CC6860 /* Build configuration list for PBXNativeTarget "APsAdsTracker" */;
 			buildPhases = (
-				A244D0E0F39732AECB5FD30C9D7D3C44 /* Headers */,
-				71D9BBD653BF4D536C4DEED9EDB3BF3B /* Sources */,
-				C243E11FCFF1D05FEEF6C9DA5A26C3A0 /* Frameworks */,
-				5C32C9DDEAB1AE2E2692CF56C5314BE3 /* Resources */,
+				035650E7C1A9E98088999D9D0C597A45 /* Headers */,
+				F4C8069BD3F6B7DCF222B0B5502CFD6C /* Sources */,
+				7DEB8999B96113421DD841B16B328F80 /* Frameworks */,
+				3773D057040DE774A0744679D9EAB06A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -298,7 +290,7 @@
 			);
 			name = APsAdsTracker;
 			productName = APsAdsTracker;
-			productReference = 1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker.framework */;
+			productReference = 1C2AA01CECCA2E78AC7C7488EDD190FC /* APsAdsTracker */;
 			productType = "com.apple.product-type.framework";
 		};
 		3C14D66D5A6553113CD7CD71D2D97407 /* Pods-APsAdsTracker_Tests */ = {
@@ -313,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E8A5331D92E9E6470115E04C46C2CD39 /* PBXTargetDependency */,
+				B55834E33F940457F85648E6B4A088E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-APsAdsTracker_Tests";
 			productName = Pods_APsAdsTracker_Tests;
@@ -328,11 +320,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					26B1B50F7165546A614EB9E27D0DBFC0 = {
-						LastSwiftMigration = 1320;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,7 +342,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C32C9DDEAB1AE2E2692CF56C5314BE3 /* Resources */ = {
+		3773D057040DE774A0744679D9EAB06A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,16 +374,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71D9BBD653BF4D536C4DEED9EDB3BF3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BBD3D76286D87AD00A51174 /* ATConstant.swift in Sources */,
-				2BBD3D54286D614900A51174 /* ATLogin.swift in Sources */,
-				E65CCFCFCBC5FDC196BA2B48207E1332 /* APsAdsTracker-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7770514D4BD516D1F2B16F230DA09283 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,20 +382,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4C8069BD3F6B7DCF222B0B5502CFD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558F510A880AC87FC4AAAEDE6204F3E2 /* APsAdsTracker-dummy.m in Sources */,
+				DAF4567D763853984CAB0F6DA61F1CAA /* ATConstant.swift in Sources */,
+				76701E0ABBBCE252286652B3EA15B80A /* ATLogin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		86BBB47837AC8EEA1BADFCEBDBA93857 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = APsAdsTracker;
-			target = 26B1B50F7165546A614EB9E27D0DBFC0 /* APsAdsTracker */;
-			targetProxy = F367C5CA59C57FF780BD644DD1B1EE99 /* PBXContainerItemProxy */;
-		};
-		E8A5331D92E9E6470115E04C46C2CD39 /* PBXTargetDependency */ = {
+		B55834E33F940457F85648E6B4A088E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-APsAdsTracker_Example";
 			target = 0A4123776D4EBEB89C31B63EFED8A55C /* Pods-APsAdsTracker_Example */;
-			targetProxy = 72CF1965043017C7360C319B5FB51469 /* PBXContainerItemProxy */;
+			targetProxy = FCB0E8A3BB6703A7E62107E2063D9DA3 /* PBXContainerItemProxy */;
+		};
+		DDB5E63C8D79BFE7A7CD9B59BA9397B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APsAdsTracker;
+			target = 26B1B50F7165546A614EB9E27D0DBFC0 /* APsAdsTracker */;
+			targetProxy = AF275D751AF19F3DD4F60657C1CCDE10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -524,6 +511,38 @@
 			};
 			name = Release;
 		};
+		3BF0524257675D4BEB309335BB541D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C944594BDA8CFFDF6548E72A46F5FE /* APsAdsTracker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APsAdsTracker/APsAdsTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APsAdsTracker/APsAdsTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APsAdsTracker/APsAdsTracker.modulemap";
+				PRODUCT_MODULE_NAME = APsAdsTracker;
+				PRODUCT_NAME = APsAdsTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		49AA08BE0346AB41EAB3938CBC5BDCDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0137F993E33DE9A005051CB1ABFEC16 /* Pods-APsAdsTracker_Example.debug.xcconfig */;
@@ -556,39 +575,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		7C032B73B5B78D24922353E46328CC7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D11B050018E57A331A48E2B4E58EA3 /* APsAdsTracker.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/APsAdsTracker/APsAdsTracker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/APsAdsTracker/APsAdsTracker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/APsAdsTracker/APsAdsTracker.modulemap";
-				PRODUCT_MODULE_NAME = APsAdsTracker;
-				PRODUCT_NAME = APsAdsTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -645,17 +631,17 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C44DF239B8BAA6A4CE28DD6347AA13F5 /* Debug */ = {
+		9E07794E18DF0B94E8204189E0660D65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 041372A45B6A2C50171888C029AB3818 /* APsAdsTracker.debug.xcconfig */;
+			baseConfigurationReference = 7146A762729436A7AEFC8585361F03FF /* APsAdsTracker.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,7 +662,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -780,11 +765,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B69EC5E7C469CCB3F3BB5D89830C7E71 /* Build configuration list for PBXNativeTarget "APsAdsTracker" */ = {
+		D5051B3431E9F91B511AD1C8F8CC6860 /* Build configuration list for PBXNativeTarget "APsAdsTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C44DF239B8BAA6A4CE28DD6347AA13F5 /* Debug */,
-				7C032B73B5B78D24922353E46328CC7A /* Release */,
+				9E07794E18DF0B94E8204189E0660D65 /* Debug */,
+				3BF0524257675D4BEB309335BB541D57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

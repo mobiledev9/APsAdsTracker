@@ -1,0 +1,6 @@
+framework module APsAdsTracker {
+  umbrella header "APsAdsTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

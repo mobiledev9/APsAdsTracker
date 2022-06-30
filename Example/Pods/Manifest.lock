@@ -1,0 +1,16 @@
+PODS:
+  - APsAdsTracker (0.1.0)
+
+DEPENDENCIES:
+  - APsAdsTracker (from `../`)
+
+EXTERNAL SOURCES:
+  APsAdsTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APsAdsTracker: 97e8863edb4aa7d1e94c293b0ac98b4fedff459f
+
+PODFILE CHECKSUM: a5597b91d9e106b7a72b7d847ec8ebcf015661c9
+
+COCOAPODS: 1.11.3

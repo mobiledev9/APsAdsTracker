@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* APsAdsTracker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APsAdsTracker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B19ADE5522BD37925687C3B /* APsAdsTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = APsAdsTracker.podspec; path = ../APsAdsTracker.podspec; sourceTree = "<group>"; };
+		6B19ADE5522BD37925687C3B /* APsAdsTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APsAdsTracker.podspec; path = ../APsAdsTracker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		76E13588FF40FC1015A06B81 /* Pods-APsAdsTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APsAdsTracker_Example.release.xcconfig"; path = "Target Support Files/Pods-APsAdsTracker_Example/Pods-APsAdsTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		928F7ABFADADBE252473ECBB /* Pods-APsAdsTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APsAdsTracker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-APsAdsTracker_Tests/Pods-APsAdsTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		97A4721A3567F1A2C4CA0494 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97A4721A3567F1A2C4CA0494 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C06767513EDFB1E2017D5EEE /* Pods_APsAdsTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APsAdsTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC784BB725C87568822BE889 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC784BB725C87568822BE889 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				928F7ABFADADBE252473ECBB /* Pods-APsAdsTracker_Tests.debug.xcconfig */,
 				25EF44EE14D68E30A1769EFD /* Pods-APsAdsTracker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
